@@ -1,9 +1,9 @@
-##Description
+## Description
 
 This module can be used to protect your server in case system load or memory use goes too high.<br/>
 It comes from [Tengine](http://tengine.taobao.org), an Nginx distribution with quite a few advanced features.
 
-###Examples:
+### Examples:
 
     server {
         sysguard on;
@@ -20,7 +20,7 @@ It comes from [Tengine](http://tengine.taobao.org), an Nginx distribution with q
         }
     }
 
-##Installation
+## Installation
 
     $ wget http://www.nginx.org/download/nginx-1.2.5.tar.gz
     $ tar xzvf nginx-1.2.5.tar.gz
@@ -32,7 +32,7 @@ It comes from [Tengine](http://tengine.taobao.org), an Nginx distribution with q
     $ ./configure --add-module=./nginx-http-sysguard
     # make && make install
 
-##Directives
+## Directives
 
 **Syntax**: ***sysguard*** [on | off]  
 **Default**: sysguard off  
